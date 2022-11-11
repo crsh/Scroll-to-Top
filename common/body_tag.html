@@ -7,7 +7,7 @@ $('.move-up').fadeIn();
 $('.move-up').fadeOut();
 }
 var scrollBottom = $(document).height() - $(this).height();
-if (scrollBottom - $(this).scrollTop > 100){
+if (scrollBottom - $(this).scrollTop() > 100){
 $('.move-down').fadeIn();
 } else {
 $('.move-down').fadeOut();
