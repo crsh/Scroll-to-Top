@@ -1,8 +1,12 @@
 .move-up {
+    bottom: 100px;
+    left: 30px;
+}
+.move-down {
     bottom: 50px;
     left: 30px;
 }
-.move-up button {
+.move-up button, .move-down button {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -10,7 +14,7 @@
     height: 45px;
     width: 45px;
 }
-.move-up button:active:hover {
+.move-up button:active:hover, .move-down button:active:hover {
     padding-right:4px !important;
     margin-right:2px;
 }

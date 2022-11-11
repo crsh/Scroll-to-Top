@@ -1,10 +1,10 @@
-.move-up {
+.move-up, .move-down {
     position: fixed;
     z-index:399;
     display: none;
     color: $secondary;
 }
-.move-up button {
+.move-up button, .move-up down {
     border:none;
     background: $quaternary;
 }
