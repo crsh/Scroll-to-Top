@@ -19,7 +19,7 @@ scrollTop: 0
 return false;
 });
 $('.move-down button').click(function(){
-    $('body,html').animate({
+$('body,html').animate({
 scrollTop: $(document).height() - $(window).height()
 }, 800);
 return false;
@@ -27,13 +27,13 @@ return false;
 });
 });</script>
 
-<form class="move-up" action="#up">
+<form class="move-up">
 <button>
 <svg class="fa d-icon d-icon-chevron-up svg-icon svg-node" aria-hidden="true"><use xlink:href="#chevron-up"></use></svg>
 </button>
 </form>
 
-<form class="move-down" action="#down">
+<form class="move-down">
 <button>
 <svg class="fa d-icon d-icon-chevron-down svg-icon svg-node" aria-hidden="true" style="transform:rotate(180deg);"><use xlink:href="#chevron-up"></use></svg>
 </button>
